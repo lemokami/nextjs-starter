@@ -1,4 +1,9 @@
 $bg-primary: #191919;
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -9,12 +14,4 @@ body {
 
 body {
   background-color: $bg-primary;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
