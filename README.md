@@ -1,5 +1,7 @@
 # Lemokami's nextjs starter template
 
+Custom Nextjs template with prebuilt TypeScript and Sass support.
+
 ## 🚀 Getting Started
 
 First, run the following command to start a new project with this template:
@@ -19,7 +21,7 @@ npx run dev
 ```
 This will open the dev server at http://localhost:3000  by default
 
-## 🔍 What's Inside
+## 🧐 What's Inside
 This template is precooked with 
 - [Sass](https://sass-lang.com/) which provides superpowers to css
 - [TypeScript](https://www.typescriptlang.org/) to provide type checking which definitely help for large projects
