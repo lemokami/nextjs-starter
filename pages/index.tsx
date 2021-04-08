@@ -14,6 +14,7 @@ export default function Home() {
           Welcome to lemokami's <a href='https://nextjs.org'>Next.js!</a>{' '}
           Starter
         </h1>
+        <a href='https://github.com/lemokami/nextjs-starter'>Github</a>
       </main>
     </div>
   );

@@ -1,4 +1,5 @@
-$primary-color: #0070f3;
+$primary-text-color: #fafafa;
+$highlight-text-color: #fff17b;
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -15,22 +16,19 @@ $primary-color: #0070f3;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.title a {
-  color: $primary-color;
-  text-decoration: none;
+  a {
+    color: $highlight-text-color;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .title {
   margin: 0;
+  margin-bottom: 1.5rem;
   line-height: 1.15;
   font-size: 4rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+  color: $primary-text-color;
 }
