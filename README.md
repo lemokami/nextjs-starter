@@ -7,9 +7,9 @@ Custom Nextjs template with prebuilt TypeScript and Sass support.
 First, run the following command to start a new project with this template:
 
 ```bash
-yarn create next-app my-app -e "https://github.com/lemokami/nextjs-starter"
+yarn create next-app my-app -e https://github.com/lemokami/nextjs-starter
 # or
-npx create-next-app my-app -e "https://github.com/lemokami/nextjs-starter"
+npx create-next-app my-app -e https://github.com/lemokami/nextjs-starter
 ```
 
 Once the installation is finished, you can navigate to the project directory and start the dev server by running the following command
